@@ -15,6 +15,7 @@ body {
 
 .navigationbar h2 {
   margin: 0;
+  text-align: right;
 }
 
 .menu ul {
@@ -60,4 +61,14 @@ section h2 {
 section p {
   font-family: 'Courier New', monospace;
   margin: 8px 0;
+}
+
+.about-content img{
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  object-fit: cover;
 }
