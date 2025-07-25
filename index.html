@@ -6,15 +6,6 @@
     <meta name ="keywords" content ="lusty, lusty cup, lusty cup cafe, cafe, night, hangout, chill">
     <title>Lusty Cup Cafe</title>
     <link rel = "stylesheet" href = "styles.css">
-<style>
-    #rotating-text {
-        font-size: 24px;
-        font-weight: bold;
-        height: 30px;
-        overflow: hidden;
-        white-space: nowrap;
-        margin-bottom: 20px;
-</style>
 </head>
 <body>
     <div class="rotating-text">
@@ -83,17 +74,5 @@
                 <p>Vanilla, Hazelnut, Caramel, Rose, Lavender, Maple Spice, Pumpkin, Raspberry, Peach, Almond, Peppermint</p>
               </section>
     </div>
-    <script>
-        const texts = [
-            "Lusty Cup Cafe!",
-            "Basement of Canaday Library"
-            ];
-        let index = 0;
-        const rotatingPart = document.getElementbyId("rotating-part");
-        setInterval(() => {
-            index = (index + 1) % texts.length;
-            rotatingPart.textContent = texts[index];
-        }, 3000);
-    </script>
 </body>
 </html>
